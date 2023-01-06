@@ -1,0 +1,470 @@
+@media  (min-width:320px){
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url("https://images.pexels.com/photos/1546039/pexels-photo-1546039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    font-size: 0.8rem;
+    min-height: 90%;
+    width: 90%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-attachment: fixed !important;
+}
+header {
+    display: flex;
+    justify-content:space-between ;
+    position: fixed !important;
+    width: 100%; 
+    height: 2em;
+    align-items: center;
+    background: rgb(164, 159, 159);
+    z-index: 999;
+    padding: 0.3em 1em;
+} 
+header a {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 0.6rem;
+    padding: ;
+}
+header h3 {
+    color: rgb(157, 56, 56);
+    font-weight: bolder;
+}
+.landing-page h5 {
+    text-align: center;
+    color: rgb(226, 156, 26);
+    font-size: 0.7rem;
+    font-weight: bolder;
+    border-bottom: 0.2em solid rgb(244, 29, 29);
+    width: fit-content;
+    top: 4em ;
+    position: relative;
+    margin-left: 6.8em;
+    letter-spacing: 0.4em;
+    animation: go 7s ease-in-out infinite;
+    transform: scale(1.1);
+}
+.ad {
+    font-size: 0.6rem;
+}
+@keyframes go {
+    0% {color:yellow;}
+    25% {color: white;}
+    50% {color: green;}
+    100% {color: red;}
+}
+.title p {
+    width: 61%;
+    background:  rgb(242, 247, 247);
+    opacity: 0.7;
+    font-size: 0.6rem;
+    font-weight: bolder;
+    color: black;
+    text-align: justify !important;
+    justify-content: center;
+    margin-left: 7.6em;
+    padding: 1em 1em;
+    border-radius: 1em;
+    margin-top: 3em;
+}
+.title span {
+    font-weight: bolder;
+    font-size: 0.6rem;
+    color: rgb(152, 6, 6);
+}
+.title h6 {
+    background: rgb(242, 247, 247);
+    width: fit-content;
+    font-weight: bolder;
+    opacity: 0.7;
+    padding: 0.3em 0.3em;
+    color: rgb(3, 35, 3);
+    margin-left: 11em;
+    margin-top: 7em;
+    border-radius: 2em;
+}
+#menu {
+    margin-top: 2em;
+    position: relative;
+    background: rgb(247, 250, 250);
+    opacity: 0.7;
+    color: black;
+    width: 61%;
+    margin-left: 5.5em;
+    padding: 1em 1em ;
+    border-radius: 1em;
+    font-weight: bolder;
+}
+.food-list h4 {
+    margin-left: 8.6em;
+    background: rgb(242, 247, 247);
+    width: fit-content;
+    opacity: 0.7;
+    list-style: none;
+    margin-top: 2em;
+    padding: 0.3em 1em;
+    border-radius: 2em;
+}
+}
+.food-list span {
+    margin-left: 6em;
+    color: rgb(227, 43, 43);
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+#menu h5 {
+    color: rgb(17, 24, 5);
+    margin-left: 5em;
+    margin-top: 0;
+    border-bottom: 0.11em solid black;
+    width: fit-content;
+    font-weight: bolder;
+}
+#menu p {
+    font-size: 0.7rem;
+}
+.one {
+    width: 4.5em;
+    height: 3.5em;
+    border-radius: 50%;
+    margin-top: 1em;
+    font-weight: bolder;
+}
+.two {
+    width: 4.5em;
+    height: 3.5em;
+    border-radius: 3em;
+    font-weight: bolder;
+}
+.three {
+    width: 4.5em;
+    height: 3.5em;
+    border-radius: 50%;
+    font-weight: bolder;
+}
+.bazean {
+    width: 5em;
+    height: 4em;
+    border-radius: 50%;
+    margin-top: 2em;
+}
+.core {
+    margin-top: 3em;
+    margin-left: 5.7em;
+    background: rgb(247, 250, 250);
+    width: 61%;
+    font-size: 0.8rem;
+    padding: 1em 1em;
+    border-radius: 1em;
+    opacity: 0.8;
+}
+.core h3 {
+    margin-left: 3.2em;
+    font-weight: bolder;
+    border-bottom: 0.11em solid black;
+    width: fit-content;
+}
+.kuskus {
+    width: 5em;
+    height: 4em;
+    border-radius: 50%;
+}
+.usban {
+    width: 5em;
+    height: 4em;
+    border-radius: 50%;
+}
+.last {
+    margin-top: 3em;
+    margin-left: 5.7em;
+    background: rgb(247, 250, 250);
+    opacity: 0.8;
+    padding: 1em 1em;
+    width: 61%;
+    font-size: 0.8rem;
+    border-radius: 1em;
+}
+.afters {
+    width: 4rem;
+    height: 3.3rem;
+    border-radius: 50%;
+    margin-top: 2em;
+}
+.last h3 {
+    margin-left: 2.3em;
+    font-weight: bolder;
+    border-bottom: 0.11em solid black;
+    width: fit-content;
+}
+.basbosa {
+    width: 5em;
+    height: 4em;
+    border-radius: 50%;
+}
+.cafe {
+    width: 5em;
+    height: 4em;
+    border-radius:50%;
+}
+footer {
+    margin-top: 2em;
+    background: rgb(124, 138, 124);
+    padding: 0.5em 0.5em;
+    color: wheat;
+    width: fit-content;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 5.9em;
+    font-size: 0.7rem;
+    padding: 0.8em 0.8em;
+    border-radius: 1em;
+} 
+@media screen and (min-width:1024px) {
+
+    *  {
+       margin: 0;
+       padding: 0;
+       font-family: Arial, Helvetica, sans-serif;
+       box-sizing: border-box;
+       scroll-behavior: smooth;
+    }
+    body, html {
+        background-image: url("https://images.pexels.com/photos/1546039/pexels-photo-1546039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+        background-size: cover;
+        background-position: center ;
+        min-height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+        background-attachment: fixed !important;
+    }
+    header {
+        background: rgb(164, 159, 159);
+        background-image: url("https://www.auntyflo.com/sites/default/files/styles/real_image/public/dictionarys/dream-dictionary/dreamsbigwaves.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content:space-between;
+        position: fixed !important;
+        width: 100%;
+        height: 6em; 
+        z-index: 999;
+    } 
+    header h2 {
+        font-size: 1.3rem;
+        text-shadow: 0.09em 0.09em black;
+        color: red;
+        font-weight: bolder;
+        margin-left: 2em;
+    }
+    .link a {
+        font-size: 0.8rem;
+        margin-right: 8em;
+        color: black;
+        background-color: darkgrey;
+        padding: .1em .6em;
+        border-radius: .5em;
+        font-weight: bolder;
+        transition: all 0.7s ease-in-out;
+}
+    .link a:hover {
+        transform: scale(1.1);
+    background-color: gray;
+    }
+    .landing-page h5 {
+        margin: 0 auto;
+        font-size: 1.2rem;
+        margin-top: 13em;
+    }
+    .title p {
+        top: -1.5em ;
+        width: 30em;
+        font-weight: bolder;
+        color: rgb(2, 11, 2);
+        font-size: 0.8rem;
+        left: 26.5em;
+        position:relative ;
+        background-color: gray;
+        border-radius: 2em;
+}
+.title  span {
+     font-size: 0.9rem;
+}
+    .title h6 {
+        font-size: 1rem;
+        margin-top: 7em;
+        padding: 0.5em 1em;
+        background: rgb(212, 203, 28);
+        font-weight: 700;
+        left: 20em;
+        position: relative;
+    }
+    .landing-page h3 {
+        margin-top: 2em;
+        margin-left: 32em;
+        font-size: 1rem;
+        position: relative;
+    }
+    .food-list h4 {
+        padding: 1em 2em;
+        margin-left: 35.5em;
+        font-size: 1rem;
+        margin-bottom: 2em;
+    }
+    #menu {
+        width: 300px;
+        margin: 0 auto;
+        position: relative;
+        border-radius: 2em;
+        bottom: 1.1em;
+        border-radius: 0;
+}
+    #menu h5 {
+        font-size: 1rem;
+        margin-left: 5.5em;
+        position: relative;
+    }
+    .one {
+        width: 16em;
+        height: 10em;
+        left: 3em;
+        font-weight: bolder;
+        position: relative;
+    }
+    #menu p {
+        margin-left: 1em;
+        margin-top: 2em;
+        font-size: 1rem;
+        position: relative;
+        padding-right: 1.5em;
+    }
+    .two {
+        width: 16em;
+        height: 10em;
+        left: 3em;
+        margin-top: 2em;
+        position: relative;
+    }
+    .three {
+        width: 16em;
+        height: 10em;
+        margin-top: 2em;
+        left: 3em;
+        position: relative;
+    }
+    .core {
+        width: 300px;
+        left: 4em;
+        bottom: 60em;
+        position: relative;
+        border-radius: 2em;
+        border-radius: 0;
+}
+    .core h3 {
+        font-size: 1rem;
+        position: relative;
+        left: 2.3em;
+    }
+    .core p {
+        font-size: 0.8rem;
+        font-weight: bolder;
+        line-height: 3.8em;
+    }
+    .bazean {
+        width: 16em;
+        height: 11em;
+        position: relative;
+        left: 3.2em;
+    }
+    .kuskus {
+        width: 16em;
+        height: 11em;
+        position: relative;
+        left: 3.2em;
+    }
+    .usban {
+        width: 16em;
+        height: 10em;
+        position: relative;
+        left: 3.2em;
+    }
+    .last {
+        flex-direction: column;
+        position: relative;
+    }
+    .last {
+        width: 294px;
+        position: relative;
+        bottom: 118.9em;
+        float: right;
+        margin-right: 9.8em;
+        text-align: center;
+        padding: 1.9em;
+        font-weight: bolder;
+        border-radius: 0;
+}
+    .last p {
+        font-size: 0.9rem;
+    }
+    .last h3 {
+        font-size: 1rem;
+        position: relative;
+        left: 1em;
+        bottom: em;
+    }
+    .afters {
+        width: 16em;
+        height: 14em;
+        font-weight: bolder;
+        margin-top: -0.3em;
+    }
+    .basbosa {
+        width: 16em;
+        height: 14em;
+        font-weight: bolder;
+    }
+    .cafe {
+        width: 16em;
+        height: 14em;
+        font-weight: bolder;
+    }
+    footer {
+        width: 91.5em;
+        height: 130px;
+        text-align: center;
+        left: 4.9em;
+        position: relative;
+        bottom: 71em;
+        border-radius: 0;
+        padding: 2em 2em;
+}
+   #contact {
+        font-size: 1rem;
+        margin-left: -5em;
+   }
+   footer p {
+        font-size: .8rem;
+        position: relative;
+        left: 12em;
+   }
+   .videos {
+    display: inline-block;
+    bottom: 80em;
+    position: relative;
+    gap: 4em;
+    left: 11em;
+    justify-content: space-between;
+    
+   }
+}
